@@ -32,6 +32,7 @@ const someAll = (arrayOfNumbers) => {
   if (!checkType(arrayOfNumbers, 'number')) throw new Error('all values ​​must be of type number');
   return arrayOfNumbers.reduce((some, number) => some + number);
 };
+
 // função recebe um array de números múltiplos e retorna a soma dos mesmos
 const addAllMultipleNumbers = (number, arrayOfMultiple) => {
   if (typeof number !== 'number') throw new Error('Invalid Value');

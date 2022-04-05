@@ -7,7 +7,7 @@ const {
   addAllMultipleNumbers,
 } = require('../src/multipleNumbers');
 
-describe('1- Desenvolva uma função que encontra a soma de todos os múltiplos de 3 ou 5 abaixo de 1000.', () => {
+describe('1 - Desenvolva uma função que encontra a soma de todos os múltiplos de 3 ou 5 abaixo de 1000.', () => {
   test('Função que verifica se o numero é múltiplo do valor informado.', () => {
     const checkIsMultiple = checkIfIsMultiple(3, 3);
     const checkIsNotMultiple = checkIfIsMultiple(4, 3);
